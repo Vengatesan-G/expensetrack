@@ -3,7 +3,8 @@
 // Credentials loaded from config.js
 
 // Determine the current page
-const onLoginPage = window.location.pathname.endsWith('login.html') || window.location.pathname.endsWith('index.html');
+const currentPath = window.location.pathname;
+const onLoginPage = currentPath.endsWith('login.html') || currentPath.endsWith('index.html') || currentPath.endsWith('/') || currentPath === '';
 const onDashboardPage = window.location.pathname.endsWith('dashboard.html');
 
 // State management
