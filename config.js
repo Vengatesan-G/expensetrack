@@ -1,4 +1,4 @@
 const CONFIG = {
-    USERNAME: 'admin',
+    USERNAME: 'kiruba',
     PASSWORD: 'password123'
 };
